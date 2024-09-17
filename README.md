@@ -66,6 +66,6 @@ For any inquiries, you can reach out via email: [mrwael13@outlook.com](mailto:yo
 
 If you enjoy this project and want to support its development, consider buying me a coffee!
 
-[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/guidelines/home-page-3.svg)](https://www.buymeacoffee.com/wael1)
+[!["Buy Me a Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/wael1)
 
    

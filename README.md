@@ -19,28 +19,32 @@ Welcome to the eSpeech project, an AI-powered text-to-speech (TTS) platform. Thi
 1. Clone the repository:
    
 bash
-   git clone https://github.com/Dev-wael1/repo.git
-   
+``` sh
+   git clone https://github.com/Dev-wael1/eSpeech
+```   
 
 2. Navigate to the project folder:
    
 bash
-   cd repo
-   
+``` sh
+   cd eSpeech
+ ```  
 
 3. Install dependencies:
    
 bash
+``` sh
    npm install
-   
+  ``` 
 
 ## Usage
 
 1. Start the application:
    
 bash
+``` sh
    npm start
-   
+```
 
 2. Open your browser and go to http://localhost:3000 to access the user interface.
 

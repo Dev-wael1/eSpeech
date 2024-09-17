@@ -1,0 +1,233 @@
+CRITICAL - 2023-03-28 01:51:26 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/reviews/show_review', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 01:51:47 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/reviews/hide_review', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 02:15:03 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/reviews/hide_review', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 02:16:37 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/reviews/hide_review', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 02:35:34 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/reviews/hide_review', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 02:37:33 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/reviews/hide_review', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 02:58:12 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/review/send', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 03:26:41 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 03:30:00 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 04:23:26 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 04:38:54 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 04:39:38 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 00:41:31 --> Maximum execution time of 60 seconds exceeded
+in APPPATH/Controllers/admin/Blogs.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-28 00:43:53 --> Maximum execution time of 60 seconds exceeded
+in APPPATH/Controllers/admin/Blogs.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-28 01:24:39 --> Undefined array key "slug"
+in APPPATH/Controllers/admin/Blogs.php on line 109.
+ 1 APPPATH/Controllers/admin/Blogs.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'APPPATH/Controllers/admin/Blogs.php', 109)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 23:01:11 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:12 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:12 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:13 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:49 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:49 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:49 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:50 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:50 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:50 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:51 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 23:01:51 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-28 17:12:59 --> Call to undefined method App\Models\Blog_model::getAll
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/admin/Blogs.php(112): CodeIgniter\Model->__call('getAll', [])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 17:20:24 --> Cannot use object of type App\Models\Blog_model as array
+in APPPATH/Controllers/admin/Blogs.php on line 112.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 19:58:09 --> Too few arguments to function App\Controllers\Blog::show(), 0 passed in /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH/Controllers/Blog.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Blog->show()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 22:55:06 --> Too few arguments to function App\Controllers\Blog::show(), 0 passed in /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH/Controllers/Blog.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Blog->show()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 23:55:49 --> Undefined variable $description
+in APPPATH/Views/frontend/retro/pages/blog.php on line 33.
+ 1 APPPATH/Views/frontend/retro/pages/blog.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $description', 'APPPATH/Views/frontend/retro/pages/blog.php', 33)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/pages/blog.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('frontend/retro/pages/blog', [], true)
+ 5 APPPATH/Views/frontend/retro/template.php(44): view('frontend/retro/pages/blog')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('frontend/retro/template', [], true)
+ 9 APPPATH/Controllers/Blog.php(30): view('frontend/retro/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Blog->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()

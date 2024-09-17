@@ -1,0 +1,355 @@
+CRITICAL - 2023-03-24 00:05:41 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/voices/update-voices', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 01:09:54 --> Cannot call constructor
+in APPPATH/Controllers/Test.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 01:11:55 --> Cannot call constructor
+in APPPATH/Controllers/Test.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\Test->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 01:30:52 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH/Debug/Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-24 01:32:48 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH/Debug/Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-24 01:34:11 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 528384 bytes)
+in SYSTEMPATH/Debug/Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-24 01:38:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 528384 bytes)
+in SYSTEMPATH/Debug/Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-24 07:30:11 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:30:27 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:40:57 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:44:11 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:44:53 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:45:33 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:58:47 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:58:48 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:58:48 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:58:49 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 07:58:49 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/create', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 23:05:28 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-24 23:05:29 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-24 23:05:29 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-24 23:05:31 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-24 23:05:31 --> Class "Kint\Renderer\AbstractRenderer" not found
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(250): config('Config\\Kint')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#4 /opt/lampp/htdocs/espeech/index.php(30): require('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2023-03-24 18:09:58 --> Undefined array key "language"
+in APPPATH/Controllers/admin/Blogs.php on line 82.
+ 1 APPPATH/Controllers/admin/Blogs.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "language"', 'APPPATH/Controllers/admin/Blogs.php', 82)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:10:17 --> Undefined array key "content"
+in APPPATH/Controllers/admin/Blogs.php on line 84.
+ 1 APPPATH/Controllers/admin/Blogs.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "content"', 'APPPATH/Controllers/admin/Blogs.php', 84)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:13:25 --> file_put_contents(./public/backend/assets/profiles/1679721205.5142.jpg): Failed to open stream: Permission denied
+in APPPATH/Controllers/admin/Profile.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(./public/backend/assets/profiles/1679721205.5142.jpg): Failed to open stream: Permission denied', 'APPPATH/Controllers/admin/Profile.php', 64)
+ 2 APPPATH/Controllers/admin/Profile.php(64): file_put_contents('./public/backend/assets/profiles/1679721205.5142.jpg', 'error file path: %FF%D8%FF%E0%00%10JFIF%00%01%01%00%00%01%00%01%00%00%FF%E2%01%D8ICC_PROFILE%00%01%01%00%00%01%C8%00%00%00%00%040%00%00mntrRGB+XYZ+%00%00%00%00%00%00%00%00%00%00%00%00acsp%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%01%00%00%F6%D6%00%01%00%00%00%00%D3-%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%09desc%00%00%00%F0%00%00%00%24rXYZ%00%00%01%14%00%00%00%14gXYZ%00%00%01%28%00%00%00%14bXYZ%00%00%01%3C%00%00%00%14wtpt%00%00%01P%00%00%00%14rTRC%00%00%01d%00%00%00%28gTRC%00%00%01d%00%00%00%28bTRC%00%00%01d%00%00%00%28cprt%00%00%01%8C%00%00%00%3Cmluc%00%00%00%00%00%00%00%01%00%00%00%0CenUS%00%00%00%08%00%00%00%1C%00s%00R%00G%00BXYZ+%00%00%00%00%00%00o%A2%00%008%F5%00%00%03%90XYZ+%00%00%00%00%00%00b%99%00%00%B7%85%00%00%18%DAXYZ+%00%00%00%00%00%00%24%A0%00%00%0F%84%00%00%B6%CFXYZ+%00%00%00%00%00%00%F6%D6%00%01%00%00%00%00%D3-para%00%00%00%00%00%04%00%00%00%02ff%00%00%F2%A7%00%00%0DY%00%00%13%D0%00%00%0A%5B%00%00%00%00%00%00%00%00mluc%00%00%00%00%00%00%00%01%00%00%00%0CenUS%00%00%00+%00%00%00%1C%00G%00o%00o%00g%00l%00e%00+%00I%00n%00c%00.%00+%002%000%001%006%FF%DB%00C%00%03%02%02%02%02%02%03%02%02%02%03%03%03%03%04%06%04%04%04%04%04%08%06%06%05%06%09%08%0A%0A%09%08%09%09%0A%0C%0F%0C%0A%0B%0E%0B%09%09%0D%11%0D%0E%0F%10%10%11%10%0A%0C%12%13%12%10%13%0F%10%10%10%FF%DB%00C%01%03%03%03%04%03%04%08%04%04%08%10%0B%09%0B%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%10%FF%C0%00%11%08%00C%00C%03%01%22%00%02%11%01%03%11%01%FF%C4%00%1D%00%00%02%02%03%01%01%01%00%00%00%00%00%00%00%00%00%08%09%00%07%03%05%06%04%02%0A%FF%C4%00%3A%10%00%02%01%03%02%04%03%06%04%03%08%03%00%00%00%00%01%02%03%04%05%11%00%06%07%12%211%08%13A%14%22Qaq%81%092B%91R%82%A1%15%16%23CSb%92%B1%A2%B2%D1%FF%C4%00%1A%01%00%03%01%01%01%01%00%00%00%00%00%00%00%00%00%00%02%04%05%03%00%01%06%FF%C4%00%25%11%00%02%01%03%04%02%01%05%00%00%00%00%00%00%00%00%00%01%02%03%04%11%12%2112%22Aq%133Qa%C1%FF%DA%00%0C%03%01%00%02%11%03%11%00%3F%00%3F%E1%85%40%CF%26%B3%AA%A7%AE%B2%AC%3E%EE%B1K4%14%CA%F3M%22%C7%1Cj%5D%DD%FF%00%2A%A8%EAI%F9i%B1%26%B0s%FB%E3z%ED%3E%1B%ED%CA%AD%DD%BDoP%DB-t%8A%0C%92%CA%074%8E%7B%24k%DD%DC%F6%0A%3B%9C%0D%02%9CV%FCMn%C2%AA%5Bo%0A6%C5%15%BA%15v%09_v_h%96P%3DV1%84L%FF%00%B8%B9%FAj%96%F1%93%E2f%EB%C5%CD%FF%00V%D6%3A%AE%5D%B9e%91%A8%EC%E1%9B%2A%C8%0F%2B%CE%AA%3B%BC%8D%93%CF%EA%02hg%8E%FBy%BA%5C%12%0B%AD%5B%18%E6%60%19%5D%3D%DCg%BF%D7E%18%FEJ%14%AD%94Rs%E41n%9F%88g%1B%EDwJOn%DD%96%88b%96%24v%8A%1BLE%0ETw8%E6%FD%8E%88%1E%0Cx%FF%00%A0%BETRQ%F1J%86%8A%0A%1A%C7%0A%97%CA%00%CB%0CNz%0F%3E2X+%F5%2C%08%00d%91%A5%CF%C5%CA3%0DF%DAC%0AH%ABl%8D%24%7EP9%B0%C4%0F%DB%5D%9F%08%B6%EC%F1S%CB%1C27%B1%D6D%C1%82%81%22%23%91%D02%F7%04%FCt%3Bi%D4%8D%25o%17%B6%07aL%D4%D5t%F1UR%CD%1C%D0L%82H%A4%8C%86WF%19R%08%F4%3A%FA%92%15%2B%8EM%08%9F%87%C7%19%EB%2F%F6k%9F%04%B7%25b%CB_%B6%11%AA%AC%F23%E5%A4%A0%2F%CA%F0%E4%F7%F2%DD%86%07%A0r%3FN%8CC%1B%7Ct%1A%F0%25%3A_M%E9g%8B%D9%D7%F855%EB%E5%F9%EAk%B5%A00yZ%A0%24%5D3%90%3Ac%BE%87%7F%19%3B%EE%5D%B7%C1%0D%C7OM%5B%E4OuT%B6%21_%CC%E2C%87Q%F2%29%9C%EA%F8%91%C8%83%2C%3D4%BF%FF%00%11M%E5%3ATm%AD%9FK.C%24%D5%EE%B8%FDD%F9h%7E%C3%9FF%1D%28%EA%A9%14%04w%98d%9A%90T%C5%86%96%A5%CC%14%D9%EA%14%0F%CC%D9%F8%9D%10%1C%08%F0%B1k%B9Y%28w5%EA%E7%28%AC%9B2I%1E%15%A3d%3E%85O%5E%BF%1DSw%CAx%A8%EB%EDv%C4%A6%9E_%22%2Cyp%C7%CE%ED%87%11%F4%03%D7%28%DA6%B8%3B%BE6%24%F4%F4%7B%60%D6U%DB%AEQB%AA%29.4rS%C8%D8%1F%A0%B8%01%BE%80%E9Z%F5d%A3%E0%5E%A5N%0F%B1%86%7F%07%5B%1BsY%7D%96%EB4%CFR%A3%92%09RL%14Pq%8F%A7%CBT%1F%11x%27%C4%9F%0C%B5%DF%DE%0D%B5u%92%E1a%2F%89%23%A9%C1%40%AD%D0%02O%A6%8FI%F7.%DF%DA%94%22%E5x%AD%11S%22%1C%10%85%98%F4%F4U%C9%27%E4%3B%EB%8D%DF%1B%C7l%F1wb%5E%ECT%BB%23uOh%AD%A1%965%B8%C9m%29%18b%0E%08Fo7%00%F5%C8%18%D2%F4%EA%CF%E5%07%3Air%81w%82%BCD%A0%DA%5C%5B%DA%FC_%B5%C6%F6%D4%86%B1i%AF%F4%2C0%A2%09%81%8EgS%D8%80%A4%BF%DBM%A5%8Co%EF%C2%CA%E8%E3%9D%0A%FA%AF%A1%FD%B4%8CxWs%9E%E7%09%B4WI%CD%258%96%94%3Bdsr%7E%5C%9E%E0%E3%A6%9C%07%86M%F0%BB%FF%00%82%7Bj%E6%EF%9A%CA%1AE%B6V%0EnlM%00%08%DF%B8P%DF%CD%A6%DF8%24%DD%C3%89%22%CB%D4%D7%D9%5E%BE%BA%9A%F0H%E6k%18%0ArO%C0%E9%5Bx%DC%BCM%7B%F1%0F%25%B0%7E%5B%5D%05%1C%07%EF%FE%23%FF%00%ED%A6%8B_%8Ff%7C%F6%C6%95%A7%8Bh%E2%8B%C4%05%EA%B7%CCC%2C%F0%85%00w%0C%A8%8A%3F%A9Mm%D6%236%8B5%B0T%16%CB%1E%E1%DD%F7%B6%8FlU4u%CD%1F%22%C8%A7%04%0C%B3%1C%7C%F2%DA%BF6%9F%0Bw%BD%8E%BA%96%F5%0D%EA%E4%BE%5C%B1%B9%86%B2%AB%CE%0F%1E%3D%F5%60G%C7%B7%C3Uo%86%CB%A5%3C%3C%5D%92%CF%23%FB%B4%F0%AC%2B%9F%E3%1F%9B%FA%8D%1B%17%B5H%A9Z%ACF%CC%80%02%7C%B0%09%C7%C8%1E%FA%9BqZQ%93%8A%3E%8A%8C%21%24%A4u%F7%ED%91%7D%DE%9C%1A%E5%DA%D5f%96%FB%3C%7C%F0%C9%909Xz%02z%0E%9A%AB6G%058%91%B7%EDU5%26%F5y%A2%AE%A4%9AYKTN%B3%2C%B0%F27%B9%D3%079o%A0%1A%21%F8%7B%B8V%A3oR%5B%EDvK%82y%40%99f%95Q%16%13%858+%9El%9C%F4%C6%B6%7B%96%F9Oh%B1%DC%2Bk%93%95%21%82Fo%98%E5%24%EB%1AsJ+%C9%CE3%D3%FDb%88%D8p5%ABu%D4%C5P%1B%29w%99_%1FU%E6%27%EB%CF%A6%1B%F8un%93Sj%DE%7BFi_%CC%A2%AEJ%C4%07%B1V%1C%8D%FF%00%92%0D.%1BM%F9%2A%AFw%1B%B71%E5%96%F1%2B%B6%3D%03%CF%8F%FA%1A%2C%3C%0B%EE%896%BF%88%99l%89%2F%3A%5E%D6%A2%8ADg%C0%1E%EF%98%0E%3E%3C%C85Ig%3B%93.b%9D-%BD%0C%DF%90%1E%BC%9A%9A%C8%3Bjk%89%27%19%5EqF%E4%0C%F4%D2%CE%F1d%94%8B%BD%E2%B9M%0CqM5%E6%B9%9D%87ycV%89c%07%F9%A2%1Ae%F7%26%1E%CA%D8%EF%8E%9A_%9E2v%9Dl%B5%D1%5Cc%870%DB%2BZ%E2%0F%C69B%86%1FfPu%B4%FA%8CZ%3CV%40gf%BF%C9%C3N-%B5%CA%A9%A4%10E%5B%22%CCGu%85%DB%98%3F%D0g%3Fm0%AF%ED%5B%EE%E1%DA%94W-%A1t%A41M%10vy%29%DA%7F5H%18%2B%EF%0Cc%E1%A5%D5%C4%A8%85%C6%E9G_%04%9C%ED%5B%04+0%FF%00U%14%23%0F%BA%95%3Fm%19%9E%1A%2B%F7%1E%DE%DB%14%91%D1%81%3D%18%C0zY%3B%23%11%DD%0F%E9%FAz%EA%7D%D4RQ%9F%B2%E5%A3qr%8E2%93%C9w%F0%A6%EF%C5%8F6x%AB7%A8%95%7D%D09%AC%24%23%28%1D%99%99%FD%3EZ%D7x%AD%E2%D5.%CC%E1%9DE%05%5Dtmy%BB%40%F4%F4%B1%AF%BA%F2%B1R%0C%9C%B98%039%FBk%7F%BB%F8%C1%BA%B6%C6%D1%AA%9A%DDi%A2j%A8%A2%3EG%9AY%82%92z%12%07C%D7%D3Kg%8C%9B%F7tn-%D7WUu%BA%CBu%BB%CD%CA%B2%D5%CAy%84c%D1%22%5E%C8%A3%D1G%40z%8E%BA%CE%DE%0A%AC%97%E8f%EE%B3%97%9A%82_%07%25%B6%2AV%08%EE6%F2I%90%CC%C4%11%EB+%04%FF%00%DE%AE%FE%17o%C8v%CF%136%E6%EF%0E%D1%11WOZ%25%8D%F9%5D%40+%B2%FC%C9%E5%D5%04%F6%1B%C5%84E%2C%D0L%86X%BC%D1%D3%AB%15%EE%7F%E3%9Dn%EDu%BE%DD%04%29%14%CA%ED%11%C8%1D%F9%7E%2AG%A1%D5-%2A%5B%A2tV%A8%E8%99%FA%08%82%AA%9A%BA%08%ABi%A4%89%E1%A8%8De%89%8B%FEd%60%0A%9F%A1%04%1DM-%8E%1B%FE%22%9B%9Ffl%5B.%D4%BBm%FA%AB%85U%AA%95iZ%A4%7F%9A%AB%90%84%FC%F9ys%F3%D4%D7%60%91%2Bj%C9%EC%1Eu%404%21H%C8%3D%0E%86%CF%11t%94%D3X%1C%CB%0A%B1a%22%12%7B%F2%96%5E%99%D4%D4%D1O%A3%06%97%DC%88%B5%EC%B4%D4%F5%7B%B6%0A%3A%98%96Hb%AE%1C%88%C3%A0%C2I%FF%00%C1%FB%0D%1D%DC%15%A6%A7%83oH%B1B%8A9%8F%40555%3E%F3%D1%F4t%8C%DC_w%1B6%F0%C1%C8%22%12%01%CF%C8%E8%0E%86%92%9Ek%B0%92X%95%99%C4%5C%C4%F7%3D%BB%EAjk%CBOf%958.%BE%21Z%AD%C3lXXQ%C6%18%CB%08%24%0C%1Cr%2F%AE%86%3D%E5AGEr%9B%D9+Xq%D4%14%E8s%9DMM3i%D1%89%DDu%3A%3D%BDQ3%D9%E9%D9%DC%BBa%BA%B0%C9%3E%F1%F5%3A%9A%9A%9Ah%F1p%7F%FF%D9')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Profile->update()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Profile))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:13:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded in /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/API/ResponseTrait.php(346): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Debug/Exceptions.php(145): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+file_put_contents(./public/backend/assets/profiles/1679721205.5142.jpg): Failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', '/opt/lampp/htdo...', 64)
+#1 /opt/lampp/htdocs/espeech/app/Controllers/admin/Profile.php(64): file_put_contents('./public/backen...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x00\x00...')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\admin\Profile->update()
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Profile))
+#4 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/espeech/index.php(54): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in SYSTEMPATH/Format/JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-24 18:13:34 --> Undefined array key "first_name"
+in APPPATH/Controllers/admin/Profile.php on line 37.
+ 1 APPPATH/Controllers/admin/Profile.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'APPPATH/Controllers/admin/Profile.php', 37)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Profile->update()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Profile))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:40:12 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:41:20 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:42:06 --> Array callback must have exactly two elements
+in APPPATH/Controllers/admin/Blogs.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:43:49 --> Array callback must have exactly two elements
+in APPPATH/Controllers/admin/Blogs.php on line 89.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:46:14 --> Call to a member function isValid() on string
+in APPPATH/Controllers/admin/Blogs.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:48:12 --> Call to a member function getRandomName() on string
+in APPPATH/Controllers/admin/Blogs.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:49:14 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:50:09 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:50:46 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:52:36 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 18:53:12 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 19:01:53 --> Call to a member function isValid() on null
+in APPPATH/Controllers/admin/Blogs.php on line 91.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 19:17:35 --> mime_content_type(C:\fakepath\4.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/admin/Blogs.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(C:\\fakepath\\4.jpg): Failed to open stream: No such file or directory', 'APPPATH/Controllers/admin/Blogs.php', 40)
+ 2 APPPATH/Controllers/admin/Blogs.php(40): mime_content_type('C:\\fakepath\\4.jpg')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-24 22:31:33 --> mysqli_sql_exception: Unknown column 'tv.id' in 'order clause' in /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/espeech/app/Models/Blog_model.php(82): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/espeech/app/Controllers/admin/Blogs.php(124): App\Models\Blog_model->list_blogs()
+#6 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\admin\Blogs->show()
+#7 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+#8 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/espeech/index.php(54): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-24 22:31:33 --> Unknown column 'tv.id' in 'order clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blogs` `b`
+ORDER BY `tv`.`id` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Models/Blog_model.php(82): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/admin/Blogs.php(124): App\Models\Blog_model->list_blogs()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->show()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 22:32:04 --> Undefined array key "display_name"
+in APPPATH/Models/Blog_model.php on line 93.
+ 1 APPPATH/Models/Blog_model.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "display_name"', 'APPPATH/Models/Blog_model.php', 93)
+ 2 APPPATH/Controllers/admin/Blogs.php(124): App\Models\Blog_model->list_blogs()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 22:34:33 --> Undefined array key "icon"
+in APPPATH/Models/Blog_model.php on line 89.
+ 1 APPPATH/Models/Blog_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', 'APPPATH/Models/Blog_model.php', 89)
+ 2 APPPATH/Controllers/admin/Blogs.php(124): App\Models\Blog_model->list_blogs()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 22:34:35 --> Undefined array key "icon"
+in APPPATH/Models/Blog_model.php on line 89.
+ 1 APPPATH/Models/Blog_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', 'APPPATH/Models/Blog_model.php', 89)
+ 2 APPPATH/Controllers/admin/Blogs.php(124): App\Models\Blog_model->list_blogs()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 22:34:35 --> Undefined array key "icon"
+in APPPATH/Models/Blog_model.php on line 89.
+ 1 APPPATH/Models/Blog_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', 'APPPATH/Models/Blog_model.php', 89)
+ 2 APPPATH/Controllers/admin/Blogs.php(124): App\Models\Blog_model->list_blogs()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-24 22:53:43 --> Invalid file: "backend/admin/pages/update.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/update.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/update', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/update')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/Blogs.php(135): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->edit()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()

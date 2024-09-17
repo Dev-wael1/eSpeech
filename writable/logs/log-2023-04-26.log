@@ -1,0 +1,790 @@
+CRITICAL - 2023-04-26 12:42:36 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(28): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:42:38 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(28): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:42:38 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(28): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:42:58 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(28): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:44:01 --> Undefined variable $main_page
+in APPPATH/Views/backend/admin/template.php on line 36.
+ 1 APPPATH/Views/backend/admin/template.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $main_page', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:44:20 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:44:30 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:44:32 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:44:33 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:44:40 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:45:26 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:45:56 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:46:01 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:46:06 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 12:49:13 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:02:52 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:06:05 --> Undefined variable $title
+in APPPATH/Views/backend/admin/template.php on line 8.
+ 1 APPPATH/Views/backend/admin/template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 8)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:15:29 --> Cannot access offset of type string on string
+in APPPATH/Controllers/admin/TTS_Languages.php on line 45.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:17:36 --> Undefined array key "voice"
+in APPPATH/Controllers/admin/TTS_Languages.php on line 46.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "voice"', '/opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php', 46)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:18:01 --> Undefined array key "language_code"
+in APPPATH/Controllers/admin/TTS_Languages.php on line 46.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "language_code"', '/opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php', 46)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:22:52 --> Undefined array key "Arabic [Switzerland]"
+in APPPATH/Controllers/admin/TTS_Languages.php on line 45.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Arabic [Switzerland]"', '/opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php', 45)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:23:06 --> Undefined array key "Arabic [Switzerland]"
+in APPPATH/Controllers/admin/TTS_Languages.php on line 45.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Arabic [Switzerland]"', '/opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php', 45)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:30:31 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:31:03 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:31:04 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:31:51 --> Undefined variable $main_page
+in APPPATH/Views/backend/admin/template.php on line 36.
+ 1 APPPATH/Views/backend/admin/template.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $main_page', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 5 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:32:02 --> Invalid file: "backend/admin/pages/tts_languages.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/admin/pages/tts_languages.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/tts_languages', [], true)
+ 3 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/tts_languages')
+ 4 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(29): view('backend/admin/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-26 13:36:52 --> mysqli_sql_exception: Unknown column 'language' in 'where clause' in /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `languag...', 0)
+#1 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `languag...')
+#2 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `languag...')
+#3 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `languag...', Array, false)
+#4 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/synthesize_helper.php(793): fetch_details('tts_languages', Array, Array)
+#6 /opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php(21): get_languages('languages', true, true)
+#7 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+#8 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+#9 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/espeech1.4.1/index.php(54): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-26 13:36:52 --> Unknown column 'language' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...], false)
+ 5 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Helpers/synthesize_helper.php(793): fetch_details('tts_languages', [...], [...])
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(21): get_languages('languages', true, true)
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-26 13:36:53 --> mysqli_sql_exception: Unknown column 'language' in 'where clause' in /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `languag...', 0)
+#1 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `languag...')
+#2 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `languag...')
+#3 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `languag...', Array, false)
+#4 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/synthesize_helper.php(793): fetch_details('tts_languages', Array, Array)
+#6 /opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php(21): get_languages('languages', true, true)
+#7 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+#8 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+#9 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/espeech1.4.1/index.php(54): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-26 13:36:53 --> Unknown column 'language' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...], false)
+ 5 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Helpers/synthesize_helper.php(793): fetch_details('tts_languages', [...], [...])
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(21): get_languages('languages', true, true)
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-26 13:37:27 --> mysqli_sql_exception: Unknown column 'language' in 'where clause' in /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `languag...', 0)
+#1 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `languag...')
+#2 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `languag...')
+#3 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `languag...', Array, false)
+#4 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/synthesize_helper.php(793): fetch_details('tts_languages', Array, Array)
+#6 /opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php(21): get_languages('languages', true, true)
+#7 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+#8 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+#9 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/espeech1.4.1/index.php(54): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-26 13:37:27 --> Unknown column 'language' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = \'languages\'
+AND `status` = 1
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `language_code`, `language_name`, `status`, `language_code`, `language_name`, `status`
+FROM `tts_languages`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...], false)
+ 5 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Helpers/synthesize_helper.php(793): fetch_details('tts_languages', [...], [...])
+ 7 APPPATH/Controllers/admin/TTS_Languages.php(21): get_languages('languages', true, true)
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:41:37 --> Call to undefined method App\Models\TTS_Languages_model::list_voices
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(59): CodeIgniter\Model->__call('list_voices', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:43:57 --> Call to undefined method App\Models\TTS_Languages_model::list_voices
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(59): CodeIgniter\Model->__call('list_voices', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:43:57 --> Call to undefined method App\Models\TTS_Languages_model::list_voices
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(59): CodeIgniter\Model->__call('list_voices', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:51 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:53 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:53 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:53 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:54 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:54 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:54 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:52:57 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:53:05 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:53:06 --> Undefined array key "icon"
+in APPPATH/Models/TTS_Languages_model.php on line 99.
+ 1 APPPATH/Models/TTS_Languages_model.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "icon"', '/opt/lampp/htdocs/espeech1.4.1/app/Models/TTS_Languages_model.php', 99)
+ 2 APPPATH/Controllers/admin/TTS_Languages.php(59): App\Models\TTS_Languages_model->list_voices(null)
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 13:59:40 --> Array to string conversion
+in APPPATH/Controllers/admin/TTS_Languages.php on line 52.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php', 52)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:06:11 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH/BaseModel.php on line 1706.
+ 1 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('public/flags/af.svg', 'insert')
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert('public/flags/af.svg', false)
+ 3 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert('public/flags/af.svg', false)
+ 4 APPPATH/Controllers/admin/TTS_Languages.php(56): CodeIgniter\BaseModel->save('public/flags/af.svg')
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 14:07:40 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH/BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH/Controllers/admin/TTS_Languages.php(59): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 15:21:23 --> Undefined variable $ley
+in APPPATH/Controllers/admin/TTS_Languages.php on line 57.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ley', '/opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/TTS_Languages.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 16:32:46 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Controllers/admin/TTS_Languages.php on line 52.
+ 1 APPPATH/Controllers/admin/TTS_Languages.php(52): count('ar-XA')
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\TTS_Languages->add_languages()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\TTS_Languages))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:13:52 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(34): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:16:33 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(36): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:16:48 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(36): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:19:18 --> Undefined variable $language
+in APPPATH/Controllers/admin/Text_To_Speech.php on line 32.
+ 1 APPPATH/Controllers/admin/Text_To_Speech.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $language', '/opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/Text_To_Speech.php', 32)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:25:14 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(35): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:21 --> Undefined variable $languages
+in APPPATH/Views/backend/text_to_speech.php on line 32.
+ 1 APPPATH/Views/backend/text_to_speech.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $languages', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 32)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:26 --> Undefined variable $languages
+in APPPATH/Views/backend/text_to_speech.php on line 32.
+ 1 APPPATH/Views/backend/text_to_speech.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $languages', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 32)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:47 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:47 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:48 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:48 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:48 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:32:49 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:34:52 --> Undefined variable $val
+in APPPATH/Views/backend/text_to_speech.php on line 38.
+ 1 APPPATH/Views/backend/text_to_speech.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 38)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 18:35:38 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-26 23:00:55 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/text-to-speech/set-voices', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()

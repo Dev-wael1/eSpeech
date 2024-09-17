@@ -1,0 +1,354 @@
+CRITICAL - 2023-03-27 00:38:52 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/update-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 00:39:31 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/update-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 00:51:26 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 00:53:13 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/update-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 02:37:01 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 02:37:06 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 02:37:07 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 02:37:07 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 02:37:08 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/add-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 05:32:22 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/admin/blogs/update-blog', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 00:52:46 --> Undefined array key "id"
+in APPPATH/Controllers/user/Reviews.php on line 36.
+ 1 APPPATH/Controllers/user/Reviews.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH/Controllers/user/Reviews.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->send_review()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 00:53:37 --> Undefined array key "userId"
+in APPPATH/Controllers/user/Reviews.php on line 36.
+ 1 APPPATH/Controllers/user/Reviews.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "userId"', 'APPPATH/Controllers/user/Reviews.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->send_review()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-27 00:55:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ORDER BY `id` DESC' at line 3 in /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/espeech/app/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/espeech/app/Controllers/user/Reviews.php(36): fetch_details('users', Array)
+#6 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\user\Reviews->send_review()
+#7 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+#8 /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/espeech/index.php(54): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-27 00:55:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ORDER BY `id` DESC' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE 0 = :0:
+AND 1 = :1:
+AND 2 = :2:
+ORDER BY `id` DESC', [...], false)
+ 2 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/user/Reviews.php(36): fetch_details('users', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->send_review()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 00:57:03 --> Undefined array key "id"
+in APPPATH/Controllers/user/Reviews.php on line 38.
+ 1 APPPATH/Controllers/user/Reviews.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH/Controllers/user/Reviews.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->send_review()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 01:01:30 --> Undefined array key "username"
+in APPPATH/Controllers/user/Reviews.php on line 41.
+ 1 APPPATH/Controllers/user/Reviews.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH/Controllers/user/Reviews.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->send_review()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 07:17:38 --> The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 306.
+ 1 SYSTEMPATH/Security/Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('/user/review/send', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 07:33:10 --> Cannot declare class App\Controllers\user\Reviews, because the name is already in use
+in APPPATH/Controllers/admin/Reviews.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-27 07:33:11 --> Cannot declare class App\Controllers\user\Reviews, because the name is already in use
+in APPPATH/Controllers/admin/Reviews.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-27 01:34:13 --> Invalid file: "backend/user/pages/reviews.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user/pages/reviews.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/pages/reviews', [], true)
+ 3 APPPATH/Views/backend/user/template.php(29): view('backend/user/pages/reviews')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/user/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/template', [], true)
+ 7 APPPATH/Controllers/admin/Reviews.php(19): view('backend/user/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Reviews->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Reviews))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 01:34:14 --> Invalid file: "backend/user/pages/reviews.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user/pages/reviews.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/pages/reviews', [], true)
+ 3 APPPATH/Views/backend/user/template.php(29): view('backend/user/pages/reviews')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/user/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/template', [], true)
+ 7 APPPATH/Controllers/admin/Reviews.php(19): view('backend/user/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Reviews->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Reviews))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 01:47:43 --> Undefined array key "image"
+in APPPATH/Models/Review_model.php on line 89.
+ 1 APPPATH/Models/Review_model.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH/Models/Review_model.php', 89)
+ 2 APPPATH/Controllers/admin/Reviews.php(100): App\Models\Review_model->list_reviews()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Reviews->show()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Reviews))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 16:57:00 --> Array to string conversion
+in APPPATH/Views/backend/send_review.php on line 12.
+ 1 APPPATH/Views/backend/send_review.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Views/backend/send_review.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/send_review.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/pages/../../send_review', [], true)
+ 5 APPPATH/Views/backend/user/template.php(29): view('backend/user/pages/../../send_review')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/user/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/template', [], true)
+ 9 APPPATH/Controllers/user/Reviews.php(22): view('backend/user/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 16:57:01 --> Array to string conversion
+in APPPATH/Views/backend/send_review.php on line 12.
+ 1 APPPATH/Views/backend/send_review.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Views/backend/send_review.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/send_review.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/pages/../../send_review', [], true)
+ 5 APPPATH/Views/backend/user/template.php(29): view('backend/user/pages/../../send_review')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/user/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/template', [], true)
+ 9 APPPATH/Controllers/user/Reviews.php(22): view('backend/user/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 17:04:35 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/user/Reviews.php(74): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->send_review()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 17:18:52 --> Invalid file: "backend/user/pages/../../send_review.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/user/pages/../../send_review.php')
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/pages/../../send_review', [], true)
+ 3 APPPATH/Views/backend/user/template.php(29): view('backend/user/pages/../../send_review')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/backend/user/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/user/template', [], true)
+ 7 APPPATH/Controllers/user/Reviews.php(22): view('backend/user/template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\user\Reviews->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user\Reviews))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 19:01:03 --> Undefined variable $reviews
+in APPPATH/Views/frontend/retro/pages/home.php on line 325.
+ 1 APPPATH/Views/frontend/retro/pages/home.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reviews', 'APPPATH/Views/frontend/retro/pages/home.php', 325)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/pages/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('frontend/retro/pages/home', [], true)
+ 5 APPPATH/Views/frontend/retro/template.php(44): view('frontend/retro/pages/home')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('/frontend/retro/template', [], true)
+ 9 APPPATH/Controllers/Home.php(62): view('/frontend/retro/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 19:01:25 --> Undefined variable $reviews
+in APPPATH/Views/frontend/retro/pages/home.php on line 325.
+ 1 APPPATH/Views/frontend/retro/pages/home.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reviews', 'APPPATH/Views/frontend/retro/pages/home.php', 325)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/pages/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('frontend/retro/pages/home', [], true)
+ 5 APPPATH/Views/frontend/retro/template.php(44): view('frontend/retro/pages/home')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('/frontend/retro/template', [], true)
+ 9 APPPATH/Controllers/Home.php(62): view('/frontend/retro/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 19:05:23 --> Undefined variable $reviews
+in APPPATH/Views/frontend/retro/pages/home.php on line 325.
+ 1 APPPATH/Views/frontend/retro/pages/home.php(325): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reviews', 'APPPATH/Views/frontend/retro/pages/home.php', 325)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/pages/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('frontend/retro/pages/home', [], true)
+ 5 APPPATH/Views/frontend/retro/template.php(44): view('frontend/retro/pages/home')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('/frontend/retro/template', [], true)
+ 9 APPPATH/Controllers/Home.php(62): view('/frontend/retro/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 19:30:36 --> Undefined variable $row
+in APPPATH/Views/frontend/retro/pages/home.php on line 341.
+ 1 APPPATH/Views/frontend/retro/pages/home.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH/Views/frontend/retro/pages/home.php', 341)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/pages/home.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('frontend/retro/pages/home', [], true)
+ 5 APPPATH/Views/frontend/retro/template.php(44): view('frontend/retro/pages/home')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/retro/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('/frontend/retro/template', [], true)
+ 9 APPPATH/Controllers/Home.php(63): view('/frontend/retro/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 23:25:37 --> Too few arguments to function App\Controllers\Blog::show(), 1 passed in /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH/Controllers/Blog.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Blog->show('2')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 23:26:42 --> Too few arguments to function App\Controllers\Blog::show(), 1 passed in /opt/lampp/htdocs/espeech/vendor/codeigniter4/framework/system/CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH/Controllers/Blog.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Blog->show('2')
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 23:26:55 --> Array to string conversion
+in APPPATH/Controllers/Blog.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Controllers/Blog.php', 38)
+ 2 APPPATH/Controllers/Blog.php(38): preg_replace('/[^A-Za-z0-9-]+/', '-', [...])
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Blog->show('2')
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 23:53:41 --> preg_replace(): No ending delimiter '/' found
+in APPPATH/Controllers/admin/Blogs.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending delimiter \'/\' found', 'APPPATH/Controllers/admin/Blogs.php', 103)
+ 2 APPPATH/Controllers/admin/Blogs.php(103): preg_replace('/\\-{2,}', '-', 'chatting-with-gpt')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 23:54:53 --> preg_replace(): No ending delimiter '/' found
+in APPPATH/Controllers/admin/Blogs.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending delimiter \'/\' found', 'APPPATH/Controllers/admin/Blogs.php', 103)
+ 2 APPPATH/Controllers/admin/Blogs.php(103): preg_replace('/\\-{2,}', '-', 'chatting with gpt')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 23:55:55 --> preg_replace(): No ending delimiter '/' found
+in APPPATH/Controllers/admin/Blogs.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending delimiter \'/\' found', 'APPPATH/Controllers/admin/Blogs.php', 103)
+ 2 APPPATH/Controllers/admin/Blogs.php(103): preg_replace('/\\-{2,}', '-', 'chatting-with-gpt')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-27 23:56:09 --> preg_replace(): Delimiter must not be alphanumeric or backslash
+in APPPATH/Controllers/admin/Blogs.php on line 103.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Delimiter must not be alphanumeric or backslash', 'APPPATH/Controllers/admin/Blogs.php', 103)
+ 2 APPPATH/Controllers/admin/Blogs.php(103): preg_replace('\\-{2,}', '-', 'chatting-with-gpt')
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Blogs->add_blog()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Blogs))
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()

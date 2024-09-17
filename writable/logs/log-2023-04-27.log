@@ -1,0 +1,444 @@
+CRITICAL - 2023-04-27 09:06:33 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:06:38 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:08:33 --> Array to string conversion
+in APPPATH/Views/backend/text_to_speech.php on line 34.
+ 1 APPPATH/Views/backend/text_to_speech.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php', 34)
+ 2 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/text_to_speech.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/pages/../../text_to_speech', [], true)
+ 5 APPPATH/Views/backend/admin/template.php(36): view('backend/admin/pages/../../text_to_speech')
+ 6 SYSTEMPATH/View/View.php(213): include('/opt/lampp/htdocs/espeech1.4.1/app/Views/backend/admin/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render('backend/admin/template', [], true)
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(38): view('backend/admin/template', [...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->index()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-27 09:44:59 --> mysqli_sql_exception: Table 'espeech.tts_language' doesn't exist in /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/espeech1.4.1/app/Helpers/synthesize_helper.php(774): fetch_details('tts_language')
+#6 /opt/lampp/htdocs/espeech1.4.1/app/Controllers/admin/Text_To_Speech.php(67): get_voices('English [United...')
+#7 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->set_voices()
+#8 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+#9 /opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/espeech1.4.1/index.php(54): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-04-27 09:44:59 --> Table 'espeech.tts_language' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `tts_language`
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tts_language`
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tts_language`
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tts_language`
+ORDER BY `id` DESC', [], false)
+ 5 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Helpers/synthesize_helper.php(774): fetch_details('tts_language')
+ 7 APPPATH/Controllers/admin/Text_To_Speech.php(67): get_voices('English [United Kingdom]')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->set_voices()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:45:10 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/Query.php', 329)
+ 2 SYSTEMPATH/Database/Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...])
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...], false)
+ 7 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH/Helpers/synthesize_helper.php(777): fetch_details('tts_voices', [...], [...])
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(67): get_voices([...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->set_voices()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:46:08 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/Query.php', 329)
+ 2 SYSTEMPATH/Database/Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...])
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...], false)
+ 7 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH/Helpers/synthesize_helper.php(777): fetch_details('tts_voices', [...], [...])
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(67): get_voices([...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->set_voices()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:51:48 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/Query.php', 329)
+ 2 SYSTEMPATH/Database/Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...])
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...], false)
+ 7 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH/Helpers/synthesize_helper.php(754): fetch_details('tts_voices', [...], [...])
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(67): get_voices([...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->set_voices()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 09:52:18 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 329.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/opt/lampp/htdocs/espeech1.4.1/vendor/codeigniter4/framework/system/Database/Query.php', 329)
+ 2 SYSTEMPATH/Database/Query.php(329): implode(',', [...])
+ 3 SYSTEMPATH/Database/Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...])
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`, `language`, `voice`, `display_name`, `type`, `gender`, `provider`, `status`, `icon`
+FROM `tts_voices`
+WHERE `language` = :language:
+AND `status` = :status:
+ORDER BY `id` DESC', [...], false)
+ 7 APPPATH/Helpers/function_helper.php(280): CodeIgniter\Database\BaseBuilder->get()
+ 8 APPPATH/Helpers/synthesize_helper.php(754): fetch_details('tts_voices', [...], [...])
+ 9 APPPATH/Controllers/admin/Text_To_Speech.php(67): get_voices([...])
+10 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\admin\Text_To_Speech->set_voices()
+11 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Text_To_Speech))
+12 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:11:56 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:12:35 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:13:06 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:13:18 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:14:21 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:16:30 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:17:22 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:18:28 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:19:16 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:20:31 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:23:55 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:23:56 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:24:00 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:24:14 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:24:15 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:24:43 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:24:44 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:25:10 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:25:11 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:25:35 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:25:36 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:26:50 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:36:20 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:41:14 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:41:16 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:41:50 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:41:52 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:41:52 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:41:53 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:41:54 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 01:42:24 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:00:06 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:07:01 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 34.
+ 1 APPPATH/Libraries/Paypal_lib.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 34)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-27 02:07:12 --> Undefined array key "paypal_mode"
+in APPPATH/Libraries/Paypal_lib.php on line 48.
+ 1 APPPATH/Libraries/Paypal_lib.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "paypal_mode"', '/opt/lampp/htdocs/espeech1.4.1/app/Libraries/Paypal_lib.php', 48)
+ 2 APPPATH/Controllers/api/V1.php(73): App\Libraries\Paypal_lib->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\api\V1->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(54): CodeIgniter\CodeIgniter->run()

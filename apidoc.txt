@@ -1,0 +1,331 @@
+ /*
+	WRTeam Developers
+*/
+
+API URL -->> 
+ https://espeech.in/api/v1/ {METHOD_NAME}  - (all APIs in one file only)
+|_________________________| -> {URL}
+
+---------------------------------------------------------------------------
+Defined API Methods:-
+---------------------------------------------------------------------------
+
+    1.  index
+    2.  register
+    3.  login
+    4.  verify_user
+    5.  languages
+    6.  voices
+    7.  synthesize
+    8.  update_fcm
+    9.  settings
+    10. predefined_tts
+    11. plans
+    12. subscriptions
+    13. add_subscription 
+    14. add_transaction  //currently disabled  //parameters may change
+    15. get_transaction
+    16. forgot_password
+    17. update_user
+    18. change_password
+    19. save_tts
+    20. delete_tts
+    21. available_settings
+    22. user_details    
+    23. saved_tts
+    24. get_tags
+    25. convert_active
+    26. add_bank_transfers
+    27. upload_receipts
+    A.  generate_paytm_checksum
+    B.  generate_paytm_txn_token
+    C.  validate_paytm_checksum
+
+    31. get_paypal_link
+    32. paypal_web_view 
+------------------------------------------
+What parameters to be Passed?  See here >>
+------------------------------------------
+
+Use POST method to pass the parameters
+
+1. index
+
+    //returns apidocs
+
+2. register
+
+    //register user
+    // if registered, returns user data
+
+    Post Parameters :-
+
+    first_name : fname          // required
+    last_name : lname           // required
+    email : email@domain.com     // required
+    password : password         // required
+    fcm_id : {fcm id}           // optional
+    phone : 1234567891          // optional
+
+3. login
+
+    // login user.
+    // if id and password matches it returns user data.
+
+    Post Parameters :-   
+
+    email: email@domain.com      // required
+    password : password         // required
+    fcm_id : {fcm id}           // optional
+
+4. verify_user
+
+    // check is user exists before registering
+    // returns error true or false
+
+    Post Parameters :-
+     
+    email : admin@admin.com     // required
+
+5. languages
+    //No parameters to be passed
+    // returns all supported languages
+
+6. voices
+    // returns voices supported by given language Code
+
+    Post Parameters :-
+     
+    language : en-US
+
+7. synthesize
+
+    // returns base64 audio from given body
+
+    Post Parameters :-
+     
+    provider: azure                 //    required    //  range { ibm , azure , aws , google } 
+    voice: en-US-JennyNeural        //    required    //  we can get it from voices api 
+    text: hello, this is espeech    //    required    //  the text or SSML to be synthesise
+    language:en-US                  //    required    //  pass language of the
+    user_id:2                       //    required    //  id of logged user
+    is_free_characters_allowed: true // required      //  for free character usage 
+    title: {title}                  //    optional    //  title of the text to speech
+
+8. update_fcm
+
+    // updates the fcm id for the given user
+     
+     Post Parameters :-
+
+     user_id : 2
+     fcm_id : {fcm_id}
+
+9. settings
+
+    // fetch settings
+    // To get the settings variable_name use (21. available_settings) api
+
+    Post parameters :-
+
+    variable : {variable_name}      // required
+
+10. predefined_tts
+
+    // fetch the predefined tts samples from the data received from {url}/voice api.
+    
+    Post parameters :-
+
+    voice: Salli              //required
+    language:en-US           //required
+    provider:aws            //required       // range (ibm , aws , google , azure)
+
+11. plans
+
+    // return all the plans available and if passed plan id it will return plan details
+
+    Post parameters :-
+
+    plan_id :1          //optional
+
+12. subscriptions
+
+    //returns all the subscriptions of the Given user.
+    // if passed {"active": "true"} then returns the active plan of the user.
+
+    Post parameters :-
+    user_id :1          //required            
+    active :{bool}      //optional       //default:false     //range (true,false)
+
+13. add_subscription
+
+ 
+    //Add subscription after the payment is successful
+
+    Post parameter :-
+
+    provider: razorpay      //required      // range(razorpay,paystack,bank_transfers, paytm, Paypal) stripe under development
+    txn_id:2                //required      //transaction id received by payment gateway 
+                                            // if the transaction was done by paypal user captured_id 
+                                            // you can find it in capture->id 
+    tenure_id:3             //required 
+    plan_id:2               //required
+    user_id:2               //required
+        
+        
+
+14. add_transaction
+
+    //transaction data to be inserted
+
+    Post parameter :-
+
+    user_id:1               //required
+    subscription_id:5       //required
+    payment_method:{method} //required  // range(razorpay,paystack,bank_transfers, paytm) stripe under development
+    transaction_id          //required  //received by payment gateway
+    amount                  //required
+    currency_code           //required
+    message                 //required  //received by payment gateway
+    status                  //required  //received by payment gateway
+
+15. get_transactions
+
+    // to fetch the transaction history of a specific user.
+
+    Post parameters :-
+
+    user_id                 //required
+    ------------------------------------------
+    optional server-side pagination parameters
+    ------------------------------------------
+    limit                   //optional
+    offset                  //optional
+    sort                    //optional
+    order                   //optional
+
+16. forgot_password
+
+    //this api sents the reset password link to the registered email address
+
+    email: email@domain.com //required
+
+17. update_user
+
+    //this api updates the user profile
+    
+
+    Post parameters :-
+
+    user_id                     //required
+    first_name                 //optional
+    last_name                 //optional
+    phone                    //optional
+    image                   //optional
+
+18. change_password
+
+    //This api changes the password of the given registered email.
+    
+    Post parameters :-
+
+    email:admin@domain.com              //required
+    old_password:{old password}         //required
+    new_password:{new password}
+
+19. save_tts
+
+
+  // This api saves the tts from given base64 and tts_id
+ 
+  Post Parameters :-
+  
+  1. tts_id:2             //required      //received from synthesize success data
+  2. base64:{base64}      //required      //received from synthesize success data
+
+20. delete_tts
+
+   
+  //This api deletes the data from saved voice
+  
+  Post Parameters :-
+  
+  1. tts_id: 2            //required      // can be fetched from saved_tts api
+
+
+21. available_settings
+
+    //This api gives all the settings variable available.
+    // no parameters needed
+
+
+22. user_details
+
+    //This api gives the user data
+
+    Post Parameters :-
+  
+    1. user_id: 2            //required    
+
+23. saved_tts
+
+    This API gives all the saved_tts of the user
+    
+    Post Parameter:-
+
+    1. user_id:2            //required    
+    2. limit                //optional
+    3. offset               //optional
+    3. sort                 //optional
+    3. order                //optional      // range(asc,desc)
+
+24. get_tags
+
+    This API gives all the tags supported by the provider if no parameters are passed.Else if provider 
+    is passed in parameter api will return the tags supported by that particular provider. 
+    
+    Post Parameter:-
+   
+    1. provider                //optional
+    
+25. convert_active
+    This api converts the upcoming plan to active plan.
+    // no parameter to be passed
+
+
+26. bank_transfers
+    To display record of bank bank_transfers
+
+27. upload_receipts
+    user id :  required
+    subscription_id: required
+    receipts[]: required(upload required)
+
+A.  generate_paytm_checksum
+        order_id:1001
+        amount:1099
+        user_id:73              //{ optional } 
+        industry_type:Industry  //{ optional } 
+        channel_id:WAP          //{ optional }
+        website:website link    //{ optional }
+B.  generate_paytm_txn_token
+        amount:100.00
+        order_id:102
+        user_id:73
+        industry_type:      //{optional}
+        channel_id:      //{optional}
+        website:      //{optional}
+C.  validate_paytm_checksum
+        order_id:102    
+
+31. get_paypal_link
+        plan_id : 1
+        tenure_id: 1
+
+32. paypal_web_view 
+        user_id: 1
+        order_id : 1
+        amount : 1000
+
+33. app_payment_status 
+34. paypal_notification 

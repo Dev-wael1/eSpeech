@@ -1,0 +1,10 @@
+{
+    "update-files/app/Controllers.zip": "app/",
+    "update-files/app/Models.zip": "app/",
+    "update-files/app/Views.zip": "app/",
+    "update-files/app/Helpers.zip": "app/",
+    "update-files/app/Libraries.zip": "app/",
+    "update-files/public/backend.zip": "public/",
+    "update-files/public/provider.zip": "public/",
+    "update-files/public/uploads.zip": "public/"
+}

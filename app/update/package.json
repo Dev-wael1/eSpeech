@@ -1,0 +1,7 @@
+{
+	"archives":"./archives.json",
+	"files":"./files.json",
+	"folders":"./folders.json",
+	"manual_queries":false,
+	"query_path":"queries.json"
+}

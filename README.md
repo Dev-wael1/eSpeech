@@ -61,4 +61,11 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For any inquiries, you can reach out via email: [mrwael13@outlook.com](mailto:your-email@example.com).
+
+## Support
+
+If you enjoy this project and want to support its development, consider buying me a coffee!
+
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/guidelines/home-page-3.svg)](https://www.buymeacoffee.com/wael1)
+
    
